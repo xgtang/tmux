@@ -1,6 +1,9 @@
 "brew install fzf
-"curl -fLo ~/.vim/autoload/plug.vim --create-dirs   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+"curl -fLo ~/.vim/autoload/plug.vim --create-dirs   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim 1
+"mkdir -p ~/.vim/temp/swp/
+"mkdir -p ~/.vim/temp/backup/
 
+set nu
 set nocompatible              " 去除VI一致性,必须要添加
 filetype off                  " 必须要添加
 
@@ -58,3 +61,4 @@ set softtabstop=3
 set shiftwidth=3
 set expandtab
 
+set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
